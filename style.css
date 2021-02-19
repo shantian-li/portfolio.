@@ -16,10 +16,10 @@ body {
 
 
 
-/* header{
-    position: relative;
-    width: 100%;
-} */
+header{
+ margin-top:-50px
+} 
+
 /* 
 .h-box{
     display: flex;
