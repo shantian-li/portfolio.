@@ -1,0 +1,346 @@
+/* div{
+    margin-top: 10px;
+} */
+
+body {
+    background-color:#e1dcdce5 ;
+}
+.container{
+    width: 1200px;
+    background: white;
+    margin: 0 auto;
+}
+/* header{
+    position: relative;
+    width: 100%;
+} */
+/* 
+.h-box{
+    display: flex;
+
+} */
+/* .h-title{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    color:white;
+    font-family: fantasy, sans-serif;
+} */
+.name{
+    text-align: left;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 40px;
+    top: 20%;
+    left: -8%;
+    /* -webkit-transform: translate(-50%,-50%); */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h-nav{
+    position: absolute; 
+    top: 15px;
+    right: 10%;
+}
+.h-menu{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ margin: 25px 0px 0px 700px;
+}
+/* .h-link{
+    margin-right:5%;
+} */
+/* div li{
+    margin-right: 100px;
+    position: fixed; 
+
+} */
+.h-link a{
+    font-size: 20px;
+    padding: 0px 20px 0px 0px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.resizeimage img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.h-img{
+    object-position: 100% 30%;
+}
+
+
+
+/* .m-section{
+    height: 300px;
+    margin-top: -3px;
+} */
+.m-h2{
+    color:rgb(37, 30, 68);;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.m-about{
+    display: flex;   
+    margin: 40px 20px 20px 100px;
+}
+
+.m-prof{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    margin-left:80px;
+}
+.m-info{
+    color: grey;
+    text-align: left;
+    margin: 0px 10px 0px 70px;
+    line-height: 1.5;
+    vertical-align: bottom;
+}
+.m-name{
+    font-size:27px;
+    margin: 50px 0px 30px 60px;
+    text-align: left;
+}
+.m-section,
+.m-works,
+.m-contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.m-works{
+ background-color: #b6bfdd;
+}
+
+
+.m-sample{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sampleimg{
+    width: 300px;
+    height: 170px;
+    margin: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.m-sampletext{
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+.card{
+    padding-bottom: 20px;
+    overflow: hidden;
+    margin: 0px;
+
+}
+.card:hover{
+    /* box-shadow: 0px 5px 5px #ccc; */
+    transform: translateY(-5px);
+    transition: .3s;
+    color: blue;
+}
+
+
+
+/* .follow {
+    list-style: none;
+    margin: 0 0 ;
+    overflow: hidden;
+    padding: 10px;
+  }
+  */
+  .follow a::before {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #55acee;
+    font-family: FontAwesome;
+    font-size: 60px;
+    height: 60px; /* Button height */
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    width: 80px; /* Button width */
+  }
+  .follow a:hover::before {
+    opacity: 0.7;
+  }
+
+  .follow a[href*="twitter.com"]::before{
+      /* background-color: yellow;  */
+      content: "\f099";
+}
+
+  .m-twitter{
+      text-align: center;
+      margin-top: 30px;
+      padding-bottom: -10px;
+  }
+  .m-t-twitter{
+      color:black;
+      font-weight: bold;
+      margin-top: -10px;
+      z-index: 1;
+  }
+  a{
+    text-decoration: none;
+
+  }
+
+  .m-mail{
+      margin-top: 40px;
+      text-align: center;
+      font-size: 18px;
+  }
+
+  .footer{
+      text-align: center;
+      background-color: rgba(2, 1, 7, 0.867);
+      height: 60px;
+      color: white;
+  }
+
+  .f-box{
+      vertical-align: middle;
+      padding-top: 30px;
+  }
+
+  .sp-name{
+    display: none;
+}
+
+  .s-skill{
+    font-size:25px;
+    /* font-family: "impact"; */
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(21, 41, 129);
+  }
+  .progress{
+      color: white;
+text-align: right;
+    }
+
+  .progress-bar {
+    font-size:30px;
+    background-color:  #162261;
+    border-radius:10px;
+    font-family: "impact";
+}
+
+.s-section{
+    margin: 40px 100px 40px 100px;
+    padding-bottom: 40px;
+}
+
+/* .progress-bar span {
+position: absolute;
+display: block;
+right: -0px;
+top: -24px;
+opacity: 0;
+line-height: 12px;
+font-size: 12px;
+color: #fff;
+padding: 4px 0px;
+} */
+
+
+
+
+
+@media screen and (max-width: 800px){
+    body{
+    font-size: 12px;
+    line-height: 1.5;
+}
+.container{
+    max-width: 120%;
+    width: 140%;
+}
+
+.main{
+    float:none;
+    width: auto;
+}
+
+.resizeimage{
+    width: 100%;
+}
+
+.h-nav{
+margin-right: -80px;
+}
+/* .h-img{
+    width:100%;
+    height: 300px;
+} */
+
+.m-h2, .m-h3{
+    font-size: 20px;
+    padding: 7px 6px 7px 8px;
+    width: 97%;
+}
+.name{
+    margin-right: -50%;
+}
+
+
+/* .header{
+max-width: 500px;
+width: 100%;
+} */
+
+.m-about,
+.m-sample{
+    /* width: 100%; */
+    /* padding-left: -30%; */
+    flex-direction: column;
+
+}
+.m-prof{
+    max-width: 100%;
+ height: auto;
+ margin-left: -20px;
+ text-align: left;
+}
+.m-info{
+    margin-left: -30px;
+}
+.sp-name{
+    /* z-index: 1; */
+    margin-bottom:100px;
+    margin-top: -100px;
+    margin-left: 20px;
+    display: flex;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+/* .m-section{
+    flex-direction: column;
+} */
+
+/* .card{
+    width: 100%;
+} */
+}
