@@ -10,6 +10,9 @@ body {
     background: white;
     margin: 0 auto;
 }
+  li{
+      list-style: none;
+  }
 /* header{
     position: relative;
     width: 100%;
